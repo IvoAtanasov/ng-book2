@@ -1,1 +1,6 @@
-<p>user-list works!</p>
+<ul>
+    <li *ngFor="let IndividualUserName of names">
+        <!--Pass value to component property-->
+        <app-user-item [name]="IndividualUserName"></app-user-item>
+    </li>
+</ul>
