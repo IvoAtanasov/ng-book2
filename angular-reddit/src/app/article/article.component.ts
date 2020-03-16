@@ -1,5 +1,5 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
-
+/// test commit from home
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
