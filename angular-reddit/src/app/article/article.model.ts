@@ -1,4 +1,4 @@
-// test commit
+/// Article model
 export class Article {
     title: string;
     link: string;
@@ -9,10 +9,11 @@ export class Article {
         this.link = link;
         this.votes = votes || 0;
     }
+    /// another comment
     voteUp(): void {
         this.votes += 1;
     }
-
+    /// comment votedown
     voteDown(): void {
         this.votes -= 1;
     }

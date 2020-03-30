@@ -14,7 +14,7 @@
     Submit link
   </button>
   <div class="ui grid posts">
-    <app-article>
+    <app-article *ngFor="let _article of sortedArticles()" [article]="_article">
       
     </app-article>
   </div>
